@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Form</title>
+    <style>
+        html{
+            font-family: "Times New Roman";
+        }
+        form{
+            background: rgb(207, 148, 77);
+            width: 450px;
+        }
+        .title{
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+<form action="tao_form_don_gian.html" method="post">
+    <table>
+        <tr>
+            <td colspan="2" class="title"><h1>DANG KI HOC VIEN</h1></td>
+        </tr>
+        <tr>
+            <td>Ho va ten</td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>Ngay sinh</td>
+            <td><input type="text"> </td>
+        </tr>
+        <tr>
+            <td>Gioi tinh</td>
+            <td>
+                <input type="radio" name="gender">Nam
+                <input type="radio" name="gender">Nu
+            </td>
+        </tr>
+        <tr>
+            <td>Dia chi</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Lop</td>
+            <td>
+<label for="class">Chon lop</label>
+            <select name="class" id="class">
+                <option value=" disabled selected">Chon lop</option>
+                <option value="class-10">Lop 10</option>
+                <option value="class-11">Lop 11</option>
+                <option value="class-12">Lop 12</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text" ></td>
+        </tr>
+        <tr>
+            <td>Dien thoai</td>
+            <td><input type="text"> </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Dang ky">
+                <input type="resubmit" value="Dien lai">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
