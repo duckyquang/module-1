@@ -1,1 +1,23 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>So Nguyen</title>
+</head>
+<body>
+<script>
+    let number = +prompt("Input an interger");
+    if (Number.isInteger(number)) {
+        if (number > 0) {
+            alert("Number is larger than 0");
+        } else if (number < 0) {
+            alert("Number is smaller than 0");
+        } else if (number == 0) {
+          alert("Number is equal to 0")
+        }
+    } else {
+        alert("Not an interger!");
+    }
+</script>
+</body>
+</html>
