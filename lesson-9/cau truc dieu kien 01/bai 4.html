@@ -1,1 +1,25 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 4</title>
+</head>
+<body>
+<script>
+    let number1 = +prompt("Input a number:");
+    let number2 = +prompt("Input another number:");
+    let number3 = +prompt("Input another another number:");
+    if (Number.isInteger(number1) && Number.isInteger(number2) && Number.isInteger(number3)) {
+        if (number1 > number2 && number1 > number3) {
+            alert(number1+" is the largest number");
+        } else if (number2 > number3) {
+            alert(number2+" is the largest number");
+        } else {
+            alert(number3+" is the largest number");
+        }
+    } else {
+        alert("Number input is not a number");
+    }
+</script>
+</body>
+</html>
