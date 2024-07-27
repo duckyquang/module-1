@@ -1,1 +1,23 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 7</title>
+</head>
+<body>
+<script>
+    let callingTime = +prompt("Total number of minutes called: ");
+    if (Number.isInteger(callingTime) && callingTime > 0) {
+        let fee = 25000;
+        if (callingTime <= 50) {
+            fee += 600 * callingTime;
+        } else if (callingTime <= 200) {
+            fee += 600 * 50 + 400 * (callingTime-50);
+        } else {
+            fee += 600 * 50 + 400 * 150 + 200 * (callingTime-200);
+        }
+        alert("Fees required to pay: "+fee+" VND");
+    }
+</script>
+</body>
+</html>
