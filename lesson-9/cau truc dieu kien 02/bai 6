@@ -1,1 +1,20 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phuong trinh bac 1</title>
+</head>
+<body>
+<script>
+    let a = + prompt("Input A: ");
+    let b = + prompt("Input B: ");
+    let x;
+    if(a===0{
+        console.log("Equation has infinite result.");
+    } else {
+        x=(-b)/a;
+        console.log("The result of the equation is: "+ string(x));
+    }
+</script>
+</body>
+</html>
