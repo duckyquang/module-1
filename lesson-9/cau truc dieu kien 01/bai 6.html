@@ -1,1 +1,21 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 6</title>
+</head>
+<body>
+<script>
+    let revenue = +prompt("Revenue (VND): ");
+    if (Number.isInteger(revenue) && revenue > 1000) {
+        if (revenue <= 2000000) {
+            alert("3%");
+        } else if (revenue <= 5000000) {
+            alert("6%");
+        } else {
+            alert("10%");
+        }
+    }
+</script>
+</body>
+</html>
