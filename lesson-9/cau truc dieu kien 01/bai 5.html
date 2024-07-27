@@ -1,1 +1,24 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bai 5</title>
+</head>
+<body>
+<script>
+  let exam = +prompt("What is your grade: ");
+  let midTermExam = +prompt("What is your midterm grade: ");
+  let finalTermExam = +prompt("What is your final term grade: ");
+  let averageGrade = (exam+midExam+finalExam)/3;
+  if (averageGrade >= 9) {
+    alert("Excellent");
+  } else if (averageGrade >= 7) {
+    alert("Great");
+  } else if (averageGrade >= 5) {
+    alert("Average");
+  } else {
+    alert("Below Average");
+  }
+</script>
+</body>
+</html>
