@@ -9,7 +9,7 @@
     let a = + prompt("Input A: ");
     let b = + prompt("Input B: ");
     let x;
-    if(a===0{
+    if(a===0) {
         console.log("Equation has infinite result.");
     } else {
         x=(-b)/a;
