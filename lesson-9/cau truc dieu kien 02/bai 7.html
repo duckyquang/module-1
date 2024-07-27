@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phuong trinh bac 2</title>
+</head>
+<body>
+<script>
+    let a = +prompt("Input A: ");
+    let b = +prompt("Input B: ");
+    let c = +prompt("Input C: ");
+    delta = (b*b) - (4*a*c);
+    if (delta == 0){
+        console.log("Equation result: " +"x = "+ (-b)/a);
+    }else if(delta < 0){
+      console.log("phương trình vô nghiệm ");
+    } else {
+            x1 = (-b + Math.sqrt(delta)) / (2 * a);
+            x2 = (-b - Math.sqrt(delta)) / (2 * a);
+            console.log("Equation has 2 results: "+ "x1 = "+x1+","+"x2 = "+x2);
+        }
+    }
+</script>
+</body>
+</html>
